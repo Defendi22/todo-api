@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Optional
 
-app = FastAPI(title="To-Do API", version="1.0.10")
+app = FastAPI(title="API do Fernando Defendi", version="1.0.10")
 
 # Banco de dados em memória (por enquanto)
 tarefas = {}
